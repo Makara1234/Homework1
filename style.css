@@ -1,0 +1,115 @@
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family:Battambang-Regular;
+    src: url(fonts/Battambang/Battambang-Regular.ttf);
+}
+@font-face {
+    font-family: Angkor-Regular;
+    src: url(fonts/Angkor/Angkor-Regular.ttf);
+}
+@font-face {
+    font-family:Hanuman-Regular;
+    src: url(fonts/Hanuman/Hanuman-Regular.ttf);
+}
+@font-face {
+    font-family: Moul-Regular;
+    src: url(fonts/Moul/Moul-Regular.ttf);
+}
+@font-face {
+    font-family:Siemreap-Regular;
+    src: url(fonts/Siemreap/Siemreap-Regular.ttf);
+}
+@font-face {
+    font-family:Poppins-Light;
+    src: url(fonts/Poppins/Poppins-Light.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.p1{
+    width: 1200px;
+    height: 80px;
+    background-color: #0365BC;
+    margin: 40px auto;
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.p2{
+    width: 1200px;
+    height: 120px;
+    background-color: #008080;
+    margin: 40px auto;
+    border-radius: 5px;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    font-family:Hanuman-Regular;
+}
+.p3{
+    width: 1200px;
+    height: 80px;
+    background-color: #0365BC;
+    margin: 40px auto;
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+}
+.main{
+    width: 1200px;
+    margin: 40px auto;
+}
+.main .row{
+    width: 1200px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 15px;
+}
+.main .row .col-1, .col-2, .col-3, .col-4, .col-5{
+    width: 590px;
+    height: 350px;
+    background-color:black;
+    border-radius: 8px;
+}
+.col-1 p,h1{
+     font-family:Battambang-Regular;
+     color: white;
+     padding: 12px;
+}
+.col-2 p,h1{
+    font-family: Angkor-Regular;
+    color: white;
+    padding: 12px;
+}
+.col-3 p,h1{
+    font-family:Hanuman-Regular;
+    color: white;
+    padding: 12px;
+}
+.col-4 p,h1{
+    font-family: Moul-Regular;
+    color: white;
+    padding: 12px;
+}
+.col-5 p,h1{
+    font-family:Siemreap-Regular;
+    color: white;
+    padding: 12px;
+}
